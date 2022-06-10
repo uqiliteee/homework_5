@@ -138,7 +138,7 @@ body {
     letter-spacing: 0.02em;
     text-decoration: none;
 
-    transition-property: var(--accent-color);
+    transition-property: color ;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -198,7 +198,7 @@ body {
     border-radius: 4px;
     border: none;
 
-    transition-property: #188ce8 ;
+    transition-property: background-color ;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -255,11 +255,12 @@ body {
     line-height: 1.16;
     text-align: center;
 }
+.occupation-pic {
+    position: relative;
+
+}
 .occupation-pic:not(:first-child) {
  margin-left: 30px;
-}
-.occupation-thumb {
-    position: relative;
 }
 .occupation-subtitle {
     display: flex;
@@ -337,12 +338,16 @@ body {
     height: 44px;
     border-radius: 50%;
 
-    transition-property: var(--accent-color);
+    transition-property: background-color ;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team-links-icons {
-    fill: var(--icons-color)
+    fill: var(--icons-color);
+
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team-soc-link:not(:last-child){
     margin-right: 10px;
@@ -385,7 +390,7 @@ body {
     border: 1px solid #AFB1B8;
     border-radius: 4px;
 
-    transition-property: var(--accent-color);
+    transition-property: color, border-color ;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -434,7 +439,7 @@ body {
     line-height: 1.71;
     text-decoration: none;
 
-    transition-property: var(--accent-color);
+    transition-property: color ;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -452,7 +457,7 @@ body {
     line-height: 1.71;
     text-decoration: none;
 
-    transition-property: var(--accent-color);
+    transition-property: color ;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -467,7 +472,7 @@ body {
     line-height: 1.71;
     text-decoration: none;
 
-    transition-property: var(--accent-color);
+    transition-property: color ;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -501,7 +506,7 @@ body {
     height: 44px;
     border-radius: 50%;
 
-    transition-property: var(--accent-color);
+    transition-property: background-color ;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -510,7 +515,8 @@ body {
     background-color: var(--accent-color);
 }
 .footer-svg {
-    fill:var(--main-color)
+    fill:var(--main-color);
+
 }
 /*------------------------------portfolio-------------------------------------*/
 .portfolio-section {
@@ -540,7 +546,7 @@ body {
     border: none;
     letter-spacing: 0.03em;
 
-    transition-property: var(--accent-color);
+    transition-property: color, background-color, box-shadow ;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -568,7 +574,7 @@ body {
     text-decoration: none;
     display: block;
 
-    transition-property: var(--accent-color);
+    transition-property: box-shadow ;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     
@@ -604,7 +610,6 @@ body {
 }
 .examples-link:hover,
 .examples-link:focus {
-
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .examples-link:hover .examples-thumb-title {
